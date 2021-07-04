@@ -1,0 +1,15 @@
+.content{
+    font-family: 'Open Sans', sans-serif;
+    max-width: min(120rem, 90%);
+    padding: 1.75rem;
+
+}
+
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#home .card{
+    font-family: 'Poppins', sans-serif;
+}

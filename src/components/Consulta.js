@@ -87,7 +87,7 @@ const Consulta = () => {
                     }
                   })
                   .map((item) => (
-                    <tr key={item}>
+                    <tr key={item.idOc}>
                       <td>{item.data}</td>
                       <td>{item.hora}</td>
                       <td>{item.cidade}</td>

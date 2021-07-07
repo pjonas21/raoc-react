@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from "react";
 import fireDb from "../firebase";
-import { Bar, Line } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import { Card, Button } from "react-bootstrap";
 
 const Charts = () => {
   const [dadosOcorrencias, setDadosOcorrencias] = useState({});
 
   const [chartData, setChartData] = useState({});
-  const [qtdVictim, setQtdVictim] = useState([]);
-  const [cities, setCities] = useState([]);
+
 
   const dadosOc = Object.keys(dadosOcorrencias).map(function (oc) {
     return dadosOcorrencias[oc];

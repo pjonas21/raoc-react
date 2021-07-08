@@ -1,13 +1,13 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD24IwEaAIK7Zfs9uraLkosgclnyeZRCYA",
-  authDomain: "proj-admin-c0620.firebaseapp.com",
-  databaseURL: "https://proj-admin-c0620-default-rtdb.firebaseio.com",
-  projectId: "proj-admin-c0620",
-  storageBucket: "proj-admin-c0620.appspot.com",
-  messagingSenderId: "743962559713",
-  appId: "1:743962559713:web:dbaf1987116ceb8947e3a0"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "project-LINK-DOMAIN",
+  databaseURL: "project-LINK-database",
+  projectId: "proj-id-database",
+  storageBucket: "proj-admin.appspot.com",
+  messagingSenderId: "snederID",
+  appId: "appID"
 };
 
 let fireDb = firebase.initializeApp(firebaseConfig);
